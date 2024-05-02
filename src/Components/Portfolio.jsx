@@ -19,9 +19,11 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+// import image from "../images/design-desk.jpeg";
+import image from "../images/teamwork.jpg";
 
-const imageAltText = "desktop with books and laptop";
+// const imageAltText = "desktop with books and laptop";
+const imageAltText = "Group of people working together with laptop and devices on the table";
 
 /**
  * Project list
@@ -31,28 +33,27 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
-  },
-  {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
-  },
-  {
     title: "My Resume Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Welcome to my professional space on the web. Here, you'll find a showcase of my journey as a Full Stack Developer, where I blend backend prowess with frontend finesse.",
+    url: "https://madefromjames.github.io",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Creating a Word Jumble Game in Python Using Tkinter GUI",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Collaboration to create a beginner friendly word jumble game uisng python tkinter to help the tools to get started.",
+    url: "https://github.com/madefromjames/digital_fortress_python_project",
+  },
+  {
+    title: "Stock Market Web Application",
+    description:
+      "A financial management tool enabling stock trading, transaction tracking, and cash balance management.",
+    url: "https://madefromjames.pythonanywhere.com/",
+  },
+  {
+    title: "Google Search Web Application",
+    description: "Video interview to explain basic Google Search Web Application.",
+    url: "https://youtu.be/138a5Fl5sZM?si=WGgeR1NjjWMYSrQO",
   },
 ];
 
